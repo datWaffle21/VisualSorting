@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="44fbf5ea-9c0e-4ff2-be09-139a7457b446" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisualSorter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VisualSorter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VisualSorter/core/main/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualSorter/core/main/Main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VisualSorter/core/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualSorter/core/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VisualSorter/core/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VisualSorter/core/util/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/util/Constants.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,16 +22,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/core/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="110" column="14" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
+            <state relative-caret-position="331">
+              <caret line="209" column="12" selection-start-line="209" selection-start-column="12" selection-end-line="209" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#renderBars#0;class#Main#0" />
-                <element signature="method#Main#0;class#Main#0" />
-                <element signature="e#1122#1306#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
                 <element signature="method#selection#0;class#Main#0" />
                 <element signature="method#bubble#0;class#Main#0" />
+                <element signature="method#RandomizeArray#0;class#Main#0" />
                 <element signature="method#render#0;class#Main#0" />
                 <element signature="method#start#0;class#Main#0" />
                 <element signature="method#stop#0;class#Main#0" />
@@ -38,10 +38,15 @@
                 <element signature="method#partition#0;class#Main#0" />
                 <element signature="method#merge#0;class#Main#0" />
                 <element signature="method#mergeSort#0;class#Main#0" />
-                <element signature="method#sort#0;class#Main#0" />
+                <element signature="method#insertionSort#0;class#Main#0" />
                 <element signature="method#cocktailSort#0;class#Main#0" />
                 <element signature="method#radixSort#0;class#Main#0" />
+                <element signature="method#bogoSort#0;class#Main#0" />
                 <element signature="method#isSorted#0;class#Main#0" />
+                <element signature="method#play#0;class#Main#0" />
+                <element signature="class#Note#0;class#Main#0" />
+                <element signature="e#11931#11932#0" expanded="true" />
+                <element signature="e#11965#11966#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/util/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="85">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -70,6 +75,7 @@
       <find>Th</find>
       <find>Thr</find>
       <find>sleep</find>
+      <find>Constants.WIDTH</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,8 +141,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553821474399" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555002326943" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -175,9 +186,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -185,8 +195,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15875614" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2700491" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -205,6 +215,17 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/event/MouseAdapter.java</url>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/core/main/Window.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -216,18 +237,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/event/MouseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk-11.0.2_windows-x64_bin/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/event/MouseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="110" column="14" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
+        <state relative-caret-position="331">
+          <caret line="209" column="12" selection-start-line="209" selection-start-column="12" selection-end-line="209" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#renderBars#0;class#Main#0" />
-            <element signature="method#Main#0;class#Main#0" />
-            <element signature="e#1122#1306#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
             <element signature="method#selection#0;class#Main#0" />
             <element signature="method#bubble#0;class#Main#0" />
+            <element signature="method#RandomizeArray#0;class#Main#0" />
             <element signature="method#render#0;class#Main#0" />
             <element signature="method#start#0;class#Main#0" />
             <element signature="method#stop#0;class#Main#0" />
@@ -237,18 +276,16 @@
             <element signature="method#partition#0;class#Main#0" />
             <element signature="method#merge#0;class#Main#0" />
             <element signature="method#mergeSort#0;class#Main#0" />
-            <element signature="method#sort#0;class#Main#0" />
+            <element signature="method#insertionSort#0;class#Main#0" />
             <element signature="method#cocktailSort#0;class#Main#0" />
             <element signature="method#radixSort#0;class#Main#0" />
+            <element signature="method#bogoSort#0;class#Main#0" />
             <element signature="method#isSorted#0;class#Main#0" />
+            <element signature="method#play#0;class#Main#0" />
+            <element signature="class#Note#0;class#Main#0" />
+            <element signature="e#11931#11932#0" expanded="true" />
+            <element signature="e#11965#11966#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
